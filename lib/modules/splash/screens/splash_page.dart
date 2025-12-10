@@ -36,8 +36,8 @@ class _SplashPageState extends State<SplashPage> {
           children: [
             Image.asset(
               'assets/beliinini.gif',
-              width: 200,
-              height: 200,
+              width: 500,
+              height: 500,
             ),
             SizedBox(height: 16.0),
             Text('Memuat...', style: TextStyle(fontSize: 24.0)),
