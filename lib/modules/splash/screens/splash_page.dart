@@ -1,5 +1,4 @@
 import 'package:beliinini_app/packages/packages.dart';
-import 'dart:async';
 
 class SplashPage extends StatefulWidget {
   static const String route = 'splash';

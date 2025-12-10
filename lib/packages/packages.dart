@@ -10,6 +10,7 @@ export 'package:dio/dio.dart';
 export 'package:pretty_dio_logger/pretty_dio_logger.dart';
 export 'package:shared_preferences/shared_preferences.dart';
 export 'package:logging/logging.dart';
+export 'dart:async';
 
 
 
