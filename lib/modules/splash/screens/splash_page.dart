@@ -29,12 +29,16 @@ class _SplashPageState extends State<SplashPage> {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return Scaffold(
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            CircularProgressIndicator(),
+            Image.asset(
+              'assets/beliinini.gif',
+              width: 200,
+              height: 200,
+            ),
             SizedBox(height: 16.0),
             Text('Memuat...', style: TextStyle(fontSize: 24.0)),
           ],
