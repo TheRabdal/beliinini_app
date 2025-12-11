@@ -5,4 +5,4 @@ export 'navigation/navigation.dart';
 export 'onboarding/onboarding.dart';
 export 'profile/profile.dart';
 export 'splash/splash.dart';
-export 'auth/auth.dart';
+export 'authentication/authentication.dart';

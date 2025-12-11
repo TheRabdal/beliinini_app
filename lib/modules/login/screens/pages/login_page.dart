@@ -7,7 +7,7 @@ class LoginPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
-      create: (context) => LoginBloc(LoginService()),
+      create: (context) => LoginButtonBloc(LoginService()),
       child: const Scaffold(body: LoginForm()),
     );
   }

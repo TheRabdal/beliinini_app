@@ -18,14 +18,14 @@ class _LoginButtonState extends State<LoginButton> {
   bool _isLoading = false;
 
   void _login(BuildContext context) {
-    context.read<LoginBloc>().add(
+    context.read<LoginButtonBloc>().add(
       LoginButtonPressed(username: widget.username, password: widget.password),
     );
   }
 
   @override
   Widget build(BuildContext context) {
-    return BlocListener<LoginBloc, LoginState>(
+    return BlocListener<LoginButtonBloc, LoginState>(
       listener: (context, state) {
         if (state is LoginLoading) {
           setState(() {
