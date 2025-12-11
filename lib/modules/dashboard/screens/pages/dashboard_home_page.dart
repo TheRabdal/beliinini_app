@@ -1,7 +1,7 @@
 import 'package:beliinini_app/packages/packages.dart';
 
 class DashboardHomePage extends StatelessWidget {
-  static const route = '/DashboardHomePage';
+  static const route = '/dashboardhome';
   const DashboardHomePage({super.key});
 
   @override

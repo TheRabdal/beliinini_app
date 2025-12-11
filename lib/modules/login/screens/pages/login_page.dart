@@ -1,7 +1,7 @@
 import 'package:beliinini_app/packages/packages.dart';
 
 class LoginPage extends StatelessWidget {
-  static const route = 'LoginPage';
+  static const route = '/loginpage';
   const LoginPage({super.key});
 
   @override
