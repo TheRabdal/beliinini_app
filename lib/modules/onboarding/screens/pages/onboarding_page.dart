@@ -35,7 +35,7 @@ class _OnboardingPageState extends State<OnboardingPage> {
                 children: const [
                   OnboardingSlide(
                     image: Icons.shopping_cart_outlined,
-                    title: 'Selamat Datang di API Store',
+                    title: 'Selamat Datang di Beliinini_app',
                     description: 'Temukan produk dan penawaran luar biasa.',
                   ),
                   OnboardingSlide(
