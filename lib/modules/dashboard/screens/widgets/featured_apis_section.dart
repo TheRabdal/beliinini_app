@@ -12,7 +12,7 @@ class FeaturedApisSection extends StatelessWidget {
         Padding(
           padding: const EdgeInsets.symmetric(horizontal: 16.0),
           child: Text(
-            'Featured APIs',
+            'Fitur Pilihan',
             style: Theme.of(context).textTheme.titleLarge,
           ),
         ),
@@ -26,21 +26,28 @@ class FeaturedApisSection extends StatelessWidget {
             mainAxisSpacing: 16.0,
             children: [
               FeaturedApiItem(
-                icon: Icons.storage,
-                name: 'Storage',
+                icon: Icons.menu_sharp,
+                name: 'Menu',
                 onTap: () {},
               ),
               FeaturedApiItem(
-                icon: Icons.analytics,
-                name: 'Analytics',
+                icon: Icons.airline_seat_individual_suite_sharp,
+                name: 'Profile',
                 onTap: () {},
               ),
               FeaturedApiItem(
-                icon: Icons.payment,
-                name: 'Payments',
+                icon: Icons.details,
+                name: 'Detail',
                 onTap: () {},
               ),
-              FeaturedApiItem(icon: Icons.map, name: 'Maps', onTap: () {}),
+              FeaturedApiItem(
+                icon: Icons.logo_dev, 
+                name: 'Logout', 
+                onTap: () {
+                  SharedPreference.clearAuthToken();
+                  Navigator.of(context).pushReplacementNamed(LoginPage.route);
+                },
+              ),
             ],
           ),
         ),

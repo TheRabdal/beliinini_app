@@ -35,7 +35,7 @@ class _ProfilePageState extends State<ProfilePage> {
               ),
               const SizedBox(height: 16),
               Text(
-                widget.username,
+                'Test',
                 style: const TextStyle(
                   fontSize: 24,
                   fontWeight: FontWeight.bold,
@@ -44,21 +44,9 @@ class _ProfilePageState extends State<ProfilePage> {
               const SizedBox(height: 8),
               const Text(
                 '081234567890',
-                style: TextStyle(fontSize: 16, color: Colors.grey),
+                style: TextStyle(fontSize: 20, color: Colors.grey),
               ),
               const SizedBox(height: 32),
-              ProfileOption(
-                icon: Icons.edit,
-                title: 'Edit Profile',
-                onTap: () {},
-              ),
-              const Divider(),
-              ProfileOption(
-                icon: Icons.settings,
-                title: 'Settings',
-                onTap: () {},
-              ),
-              const Divider(),
               ProfileOption(
                 icon: Icons.logout,
                 title: 'Logout',
@@ -68,6 +56,7 @@ class _ProfilePageState extends State<ProfilePage> {
                 },
                 trailing: const SizedBox.shrink(),
               ),
+              const Divider(),
             ],
           ),
         ),
