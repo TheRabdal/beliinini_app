@@ -18,7 +18,7 @@ class _MainPageState extends State<MainPage> {
     super.initState();
     _widgetOptions = <Widget>[
       DashboardHomePage(),
-      const ProductPage(),
+      ProductPage(),
       ProfilePage(username: ''),
     ];
   }
